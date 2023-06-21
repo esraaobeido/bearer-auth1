@@ -27,7 +27,7 @@ app.use(authRoutes);
 
 app.get('/', welcomeHandler);
 function welcomeHandler(req, res) {
-    res.status(200).send('hi');
+    res.status(200).send('HELLO!');
 }
 
 
